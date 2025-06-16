@@ -1,0 +1,4 @@
+@font-face {
+  font-family: 'Corridos Bold';
+  src: url('../assets/fonts/Corridos-Bold.ttf');
+}

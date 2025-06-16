@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'Corridos';
+  src: url('../assets/fonts/Corridos-Bold.ttf');
+}
+@font-face {
+  font-family: 'Emotional';
+  src: url('../assets/fonts/Emotional-Script.ttf');
+}
+body {
+  font-family: 'Emotional', sans-serif;
+}

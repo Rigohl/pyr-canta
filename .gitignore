@@ -1,0 +1,33 @@
+# 🧪 Node y herramientas (por si usas Firebase o algún builder)
+node_modules/
+dist/
+.build/
+.next/
+out/
+.env
+.env.local
+.env.production
+firebase-debug.log
+firebase.json.backup
+
+# 🔒 Sistema y caché
+.DS_Store
+Thumbs.db
+.vscode/
+*.log
+
+# 🚫 Archivos de ZIP o empaques
+*.zip
+*.rar
+*.7z
+
+# 🗂️ Archivos personales
+README-borrador.md
+.idea/
+*.iml
+*.bak
+
+# 🧪 Tests o herramientas de prueba (opcional)
+coverage/
+cypress/
+__tests__/

@@ -1,0 +1,17 @@
+@media (max-width: 900px) {
+  .hero, .paquetes, .form-module, .galeria {
+    max-width: 98vw !important;
+    padding: 1em !important;
+  }
+  .galeria-canciones, .galeria-corridos {
+    flex-direction: column !important;
+  }
+}
+@media (max-width: 500px) {
+  body {
+    font-size: 0.95em;
+  }
+  .hero h1 {
+    font-size: 1.5em;
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Canciones y Corridos",
+  "short_name": "CyC",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "description": "Tu canción o corrido personalizado",
+  "icons": []
+}

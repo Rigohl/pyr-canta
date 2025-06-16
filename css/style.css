@@ -1,0 +1,30 @@
+/* 🔗 Conecta módulos */
+@import url("modules/footer.css");
+@import url("modules/hero.css");
+@import url("modules/paquetes.css");
+@import url("modules/formulario.css");
+
+/* 🎯 Tipografía y fuentes */
+@import url("fonts.css");
+
+/* 📱 Adaptaciones responsivas */
+@import url("responsive.css");
+
+/* 🌈 Variables de color y diseño */
+:root {
+  --color-primario: #ff3c3c;
+  --color-fondo: #0a0a0a;
+  --color-texto: #ffffff;
+  --color-acento: #ffae00;
+  --fuente-titulo: 'Corridos-Bold', sans-serif;
+  --fuente-cuerpo: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* 🔄 Reset general */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ...(el resto de tu CSS base aquí)... */

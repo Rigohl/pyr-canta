@@ -1,0 +1,41 @@
+.form-module {
+  max-width: 420px;
+  margin: 2em auto;
+  background: #fff;
+  padding: 2em 2.5em;
+  border-radius: 24px;
+  box-shadow: 0 2px 16px #e1e1e1;
+  font-size: 1.08em;
+}
+.form-module label {
+  display: block;
+  margin: 1.2em 0 0.4em 0;
+  font-weight: bold;
+}
+.form-module input,
+.form-module select,
+.form-module textarea {
+  width: 100%;
+  padding: 0.6em;
+  border-radius: 12px;
+  border: 1px solid #ddd;
+  font-size: 1em;
+}
+.form-module .btn-emotional,
+.form-module .btn-battle {
+  margin-top: 2em;
+  width: 100%;
+}
+input[type="checkbox"] {
+  width: 1em;
+  height: 1em;
+  margin-right: 0.7em;
+}
+.helper-text {
+  font-size: 0.95em;
+  color: #666;
+}
+.input-error {
+  border-color: #d80032 !important;
+  background: #fff3f4;
+}

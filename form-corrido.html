@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pide tu Corrido Personalizado</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/modules/formulario.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <script src="js/form-handler.js" defer></script>
+</head>
+<body>
+  <main class="container">
+    <h1 class="title-battle">Corridos Personalizados</h1>
+    <p class="subtitle-battle">Historias que suenan con fuerza y estilo.</p>
+    <form id="corridoForm" action="gracias.html" method="POST" class="form-module">
+      <label for="protagonista">Nombre / Alias *</label>
+      <input type="text" id="protagonista" name="protagonista" required placeholder="¿Quién es el héroe?" />
+
+      <label for="motivo">¿Qué quieres destacar? *</label>
+      <textarea id="motivo" name="motivo" rows="4" required placeholder="Describe la historia o hazaña que merezca su corrido"></textarea>
+      <small class="helper-text">Entre más detalle, más poderosa será la letra.</small>
+
+      <label for="telefono">Tu número de WhatsApp *</label>
+      <input type="tel" id="telefono" name="telefono" placeholder="+52 1 55 1234 5678" required />
+
+      <label for="estilo">Estilo de corrido</label>
+      <select id="estilo" name="estilo">
+        <option value="tradicional">Tradicional</option>
+        <option value="tumbado">Tumbado</option>
+        <option value="alterado">Alterado</option>
+      </select>
+
+      <label class="checkbox">
+        <input type="checkbox" id="sorpresaCorrido" name="sorpresa" value="on" />
+        ¿Quieres que un artista famoso participe?
+      </label>
+
+      <label>
+        <input type="checkbox" required>
+        Acepto los <a href="terms.html" target="_blank">Términos y Condiciones</a>
+      </label>
+      <button type="submit" class="btn-battle">Enviar pedido</button>
+    </form>
+  </main>
+</body>
+</html>
