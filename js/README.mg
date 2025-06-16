@@ -36,4 +36,20 @@
 ---
 
 ## 📁 Estructura del Proyecto
-
+├── index.html # Página principal (Hero, Galería, CTA)
+├── form-cancion.html # Formulario para canciones emotivas
+├── form-corrido.html # Formulario para corridos personalizados
+├── gracias.html # Página de confirmación tras pedido
+├── css/
+│ ├── style.css # Estilos globales (usa @import modular)
+│ ├── fonts.css # Tipografías personalizadas
+│ ├── responsive.css # Adaptaciones móviles
+│ └── modules/ # Componentes visuales individuales
+├── js/
+│ └── form-handler.js # Validación y control de formularios
+├── assets/
+│ ├── img/ # Imágenes visuales (galería, hero, fondo)
+│ ├── audio/ # Demos de corridos y canciones
+│ ├── fonts/ # Tipografías TTF y WOFF2
+│ └── video/ # Loop animado opcional
+└── firebase.json # Config para Firebase Hosting (opcional)
